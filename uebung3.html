@@ -1,0 +1,112 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Interaktiver Spracherwerb</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/uebung1.css">
+
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. 
+			Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="header-container">
+            <header class="wrapper clearfix">	
+				<h1 class="title">Interaktiver Lückentext</h1>
+				<nav>
+				   <ul>
+				      <li><a href="uebung1.html">Übung 1</a></li>
+					  <li><a href="uebung2.html">Übung 2</a></li>
+					  <li><a href="uebung3.html">Übung 3</a></li>
+				  </ul>
+				</nav>						
+            </header>
+        </div>
+		
+		<div class="main-container">
+            <div class="main wrapper clearfix">
+				
+
+				<h1>Übung 3</h1>
+				<h2>Kommunikation - Meinungen und Entscheidungen</h2>
+
+				<p>Schreibe die richtigen Adjektive und Substantive in die Lücken.</p>
+				
+				<!--Lückentext in einem Formular mit der ID "lueckentext3", onSubmit zur Validierung des Formulars-->
+				<form name="lueckentext3" id="lueckentext3" onSubmit="onSubmit()" method="post">
+				
+				 Lukas und Johanna unterhalten sich über ihre Zukunft nach dem Schulabschluss. Sie werden demnächst die letzten 
+				 Prüfungen abschließen und dann ihr Abiturzeugnis in den Händen halten. 
+				 Die beiden haben 
+				 <label> 
+					<input type="text" id="eins" name="eins" required oninput="check1(this)">
+					<img src="img/no.png" id="einsimg">
+				 </label>
+				 <label> 
+					 <input type="text" id="zwei" name="zwei" required oninput="check2(this)">
+					 <img src="img/no.png" id="zweiimg">
+				 </label>
+				 , wie es danach beruflich weitergehen soll. Johanna möchte gern eine Ausbildung im medizinischen Bereich 
+				 absolvieren. Sie ist der 
+				 <label> 
+					 <input type="text" id="drei" name="drei" required oninput="check3(this)"> 
+					 <img src="img/no.png" id="dreiimg">
+				 </label>
+				 <label> 
+					 <input type="text" id="vier" name="vier" required oninput="check4(this)">
+					 <img src="img/no.png" id="vierimg">
+				 </label>
+				 , dass es wichtig ist, Menschen zu helfen und zu pflegen. Sie fragt Lukas nach seinen Vorstellungen, 
+				 doch der ist noch unschlüssig über seine berufliche Zukunft. Entweder schreibt er sich an einer Universität 
+				 ein oder er macht ein Praktikum in Frankreich. Dort kann er bei der Umweltorganisation eines Bekannten aushelfen.
+				 Diese 
+				 <label> 
+					 <input type="text" id="fuenf" name="fuenf" required oninput="check5(this)"> 
+					 <img src="img/no.png" id="fuenfimg">
+				 </label>
+				 <label> 
+					 <input type="text" id="sechs" name="sechs" required oninput="check6(this)">
+					 <img src="img/no.png" id="sechsimg">
+				 </label>
+				 sollte er sich nicht entgehen lassen, findet Johanna. Eine 
+				 <label> 
+					 <input type="text" id="sieben" name="sieben" required oninput="check7(this)"> 
+					 <img src="img/no.png" id="siebenimg">
+				 </label>
+				 <label> 
+					 <input type="text" id="acht" name="acht" required oninput="check8(this)">
+					 <img src="img/no.png" id="achtimg">
+				 </label>
+				 muss er erst in ein paar Wochen treffen.
+
+				  <br><br>
+				  <input type="submit" id="pruefen" value="Überprüfe Text" />
+				  <br> 
+				  <label>
+				  <output></output>
+				  </label>
+				  
+				</form>
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+        <div class="footer-container">
+            <footer class="wrapper">
+				<p>Humboldt-&shy;Universität zu Berlin | Institut für deutsche Sprache und Linguistik | Janine Altzschner</p>
+			</footer>
+        </div>
+
+
+        <script src="js/uebung3.js"></script>
+    </body>
+</html>

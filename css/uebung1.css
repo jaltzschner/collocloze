@@ -1,0 +1,27 @@
+:invalid { 
+}
+
+:required {
+}
+
+form {
+	position: auto;
+  margin: 20px auto;
+}
+
+.button {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border:1px solid #ccc;
+  font-size:20px;
+  width:300px;
+  min-height:30px;
+  display:block;
+  margin-bottom:15px;
+  margin-top:5px;
+  outline: none;
+}
+
+input[type=submit] {
+  background:none;
+  padding:10px;
+}
